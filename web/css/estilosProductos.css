@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 9px;
+    background-color:darkcyan;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 90%;
+    height: 20px;
+    margin-bottom: 12px;
+    margin-top: 7px;
+    border: 2px solid darkcyan ;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+
+    border-radius: 8px;
+    border: 2px solid darkcyan ;
+    width: 95%;
+    cursor: pointer;
+}
+
+.tacheNombre, .tacheStock, .tachePrecio .tacheDepartamento{
+color: rgb(255, 0, 0);
+}
+.input-tache{
+    background:rgb(255, 0, 0);
+    border: 2px solid rgb(255,0,0);
+}
+.input-buena{
+    background:rgb(0, 255, 17);
+    border: 2px solid rgb(0, 255, 34);
+}
+.buenaNombre, .buenaStock, .buenaPrecio .buenaDepartamento{
+    color: rgb(34, 255, 0);
+}
+.mensajeNombre, .mensajeStock, .mensajePrecio .tacheDepartamento{
+    font-size: small;
+    color: rgb(255,0,0);
+}
+.ocultar{
+    display: none;
+}
